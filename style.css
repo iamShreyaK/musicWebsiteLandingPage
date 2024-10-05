@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Styling background image by url and position */
+
+.container{
+    height: 90vh;
+    width: 100%;
+    background-image: url(./images/music.jfif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.imgOver p{
+    position: absolute;
+    color: rgb(248, 217, 62);
+}
+/* Styling tags to right of navigation bar */
+.nav li{
+    float: right;
+    list-style: none;
+}
+.nav a {
+    list-style: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1rem;
+    font-weight: 550;
+    display: block;
+    padding: 5px 35px;
+    color: rgb(246, 242, 242);
+    text-decoration: none;
+}
+/* Giving position and margin to the content div */
+.content{
+    width: 100%;
+    position: absolute;
+    top: 45%;
+}
+.left-col{
+    margin-left: 11%;
+}
+.left-col h1{
+    font-size: 50px;
+    color: rgb(234, 246, 5);
+}
+/* Styling right col */
+.right-col{
+    float: right;
+    margin-right: 10%;
+    margin-top: -5%;
+    display: flex;
+    align-items: center;
+}
+/* Styling text in right col */
+.right-col p{
+    font-size: 21px;
+    color: rgb(248, 246, 246);
+    font-weight: 600;
+    margin-right: 20px;
+}
+#icon{
+    cursor: pointer;
+}
